@@ -1,6 +1,5 @@
 # Myth-GRT-AI-World-Simulation
 AI-Genereated Simulation Game 
-Myth GRT: AI-Generated World Simulation Game
 Created by: Marc Jenkins (Nova)
 Role: AI Systems Architect | LLM Pipeline Designer | Product Owner
 
@@ -32,3 +31,42 @@ requirements.txt – Python dependencies
 /readme_samples/ – Sample game transcripts
 
 world_state.json & codex_log.txt – Auto-created during gameplay
+
+Quick Start
+bash
+Copy
+Edit
+git clone https://github.com/[your_username]/Myth-GRT-AI-World-Simulation.git
+cd Myth-GRT-AI-World-Simulation
+pip install -r requirements.txt
+python myth_grt_engine.py
+.env Setup:
+Add your OpenAI API key in a .env file:
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxx
+
+Gameplay Loop
+Choose your world’s Genre, Elements, and Phenomena Seeds (e.g., Horror + Alchemy).
+
+Begin breathing commands to evolve your world.
+
+Watch as the AI transforms your breath into living, responsive world updates.
+
+Interact with your world’s spirit and witness the rise of chosen lineages.
+
+Each session is saved, creating a persistent, ever-changing universe.
+
+Expansion Ideas
+Advanced NPC Systems (purpose-driven AI behaviors)
+
+Quest/Event Frameworks
+
+Multiverse & Genre Fusion Mechanics
+
+Graphical/VR Interface Layers
+
+Notes
+This engine is designed for experimentation and creative AI storytelling.
+
+Works best when paired with fine-tuned LLMs for deeper world logic.
+
+Reset your world anytime by deleting world_state.json.
